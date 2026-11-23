@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "makeitflow": {
+      "url": "https://makeitflow.si/api/mcp",
+      "headers": { "Authorization": "Bearer YOUR_TOKEN" }
+    }
+  }
+}

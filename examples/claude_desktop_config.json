@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "makeitflow": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://makeitflow.si/api/mcp", "--header", "Authorization:${MIF_AUTH}"],
+      "env": { "MIF_AUTH": "Bearer YOUR_TOKEN" }
+    }
+  }
+}

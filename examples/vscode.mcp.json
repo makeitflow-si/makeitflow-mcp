@@ -1,0 +1,12 @@
+{
+  "inputs": [
+    { "type": "promptString", "id": "mif-token", "description": "Make It Flow API token", "password": true }
+  ],
+  "servers": {
+    "makeitflow": {
+      "type": "http",
+      "url": "https://makeitflow.si/api/mcp",
+      "headers": { "Authorization": "Bearer ${input:mif-token}" }
+    }
+  }
+}
