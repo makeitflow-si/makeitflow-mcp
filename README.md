@@ -108,6 +108,16 @@ curl -s https://makeitflow.si/api/mcp \
 
 A missing or wrong token returns HTTP 401. Requests from web browsers on other sites are refused.
 
+## Claude skills
+
+Ready-made [Agent Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that use this connector. Copy a folder into your skills directory (for Claude Code, `~/.claude/skills/`) with the connector set up as above:
+
+| Skill | What it does |
+|---|---|
+| [`website-health-check`](skills/website-health-check/SKILL.md) | A prioritised health summary of all your sites: what is wrong and what to fix first |
+| [`security-triage`](skills/security-triage/SKILL.md) | Turns open Security Watch findings into an ordered fix plan |
+| [`weekly-site-report`](skills/weekly-site-report/SKILL.md) | A two-minute weekly report for an owner or client: uptime, security, AI readiness, alerts |
+
 ## Free automation templates
 
 Ready-to-import n8n workflows, each with a step-by-step guide. Download them free on makeitflow.si:
